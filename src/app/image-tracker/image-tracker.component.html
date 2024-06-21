@@ -1,1 +1,11 @@
-<p>image-tracker works!</p>
+<div class="container">
+    <div class="image-card" *ngFor="let item of items; let i = index">
+      <img [src]="item.imageUrl" alt="Image {{i + 1}}" />
+      <div class="buttons">
+        <button (click)="incrementCount(i)">Click me</button>
+      </div>
+      <div class="count">
+        <span>Total Clicks: {{item.count}}</span>
+      </div>
+    </div>
+</div>
