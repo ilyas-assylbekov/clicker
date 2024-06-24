@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "clicker-b32aa": {
+      "hosting": {
+        "clicker": [
+          "clicker-b32aa"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "clicker-b32aa"
+  }
+}

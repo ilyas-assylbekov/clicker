@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "target": "clicker",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "us-central1"
+      }
+    }
+  ]
+}
