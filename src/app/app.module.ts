@@ -14,7 +14,7 @@ import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    provideFirebaseApp( () => initializeApp( environment.firebase ) ),
+    provideFirebaseApp(() => initializeApp( environment.firebase ) ),
   ],
   providers: [
     provideClientHydration()
