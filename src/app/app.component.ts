@@ -1,5 +1,6 @@
 import { Component, Inject } from '@angular/core';
 import { FirebaseApp } from '@angular/fire/app';
+import { getFirestore } from 'firebase/firestore';
 
 @Component({
   selector: 'app-root',

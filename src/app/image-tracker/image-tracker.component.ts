@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { collection, addDoc, getDocs, getDoc, setDoc } from "firebase/firestore";
-import { db, firebaseApp } from '../app.module';
+import { collection, addDoc, getDocs, setDoc, getFirestore } from "firebase/firestore";
+
+const db = getFirestore();
 
 @Component({
   selector: 'app-image-tracker',
